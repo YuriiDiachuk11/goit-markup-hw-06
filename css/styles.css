@@ -1,5 +1,222 @@
 body { 
     font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {text-decoration: none;}
+
+
+
+                            /* HEADER */
+
+
+.header {
+}
+
+.header-navigation {
+}
+.header-logo { 
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #2E2F42;   
+}
+.header-list { 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;  
+}
+.header-item {
+}
+.header-item-link { 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;   
+}
+.header-item-link:hover, .header-item-link:active, .header-item-link:focus{
+    color: #404BBF;
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.header-address-link { 
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+    
+}
+.header-address-link:hover, .header-address-link:focus, .header-address-link:active{
+    color: #404BBF;
+    ;
+}
+.header-colored { color: #4D5AE5;    
+}
+                                     /* TITLE */
+
+
+.hero { background-color: #2E2F42;
+}
+.hero-title { 
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;   
+}
+.hero-btn { 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;   
+}
+.hero-btn:hover, .hero-btn:focus, .hero-btn:active{
+    color: #404BBF;
+}
+                           /* ADVANTAGES */
+
+
+.advantages { background-color: #ffffff;
+}
+.visually-hidden { position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+.advantages-text { 
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;    
+} 
+                                           /* OUR TEAM */
+
+
+.team { background-color: #f4f4fd;
+    color: #2E2F42;
+}
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+.team-list {
+}
+.team-item {
+}
+.team-image {
+}
+.team-subtitle { 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+.team-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.portfolio { color: #2E2F42;}
+.portfolio-title { 
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-image {
+}
+.portfolio-subtitle { 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.portfolio-text { 
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.footer { color: #f4f4fd;
+    background-color: #2E2F42;
+}
+.footer-link { 
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #f4f4fd;
+    
+}
+.footer-colored { color: #4D5AE5;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #f4f4fd;
 }
 
 
