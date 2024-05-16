@@ -51,7 +51,7 @@ color: #4d5ae5;
     color: #2e2f42;   
 }
 .header-item-link:hover, .header-item-link:active, .header-item-link:focus{
-    background-color: #404BBF
+   color: #404bbf;
 }
 .header-address { font-style: normal;
 }
@@ -99,30 +99,23 @@ color: #4d5ae5;
     background-color: #4D5AE5;   
 }
 .hero-btn:hover, .hero-btn:focus, .hero-btn:active{
-    color: #404BBF;
+    background-color: #404BBF;
 }
                            /* ADVANTAGES */
 
 
 .advantages { background-color: #ffffff;
 }
-.advantuges-title {
+.advantages-title, .advantages-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .advantages-list {
 }
 .advantages-item {
-}
-.advantages-subtitle {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2e2f42 ;
 }
 .advantages-text { 
     font-size: 16px;
@@ -212,6 +205,7 @@ color: #4d5ae5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
+    text-transform: uppercase;
     color: #4d5ae5;
     
 }
