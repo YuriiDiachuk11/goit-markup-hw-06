@@ -96,6 +96,14 @@ margin-right: 76px;
 
 .hero { background-color: #2E2F42;
 }
+.hero-container {
+width: 1440px;
+height: 600px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 .hero-title { 
     font-size: 56px;
     font-weight: 700;
@@ -103,7 +111,7 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    line-height: 1.07;   
+    line-height: 1.07; 
 }
 .hero-btn { 
     font-size: 16px;
@@ -113,7 +121,12 @@ margin-right: 76px;
     text-align: left;
     color: #ffffff;
     cursor: pointer;
-    background-color: #4D5AE5;   
+    background-color: #4D5AE5;
+    padding: 16px 32px;   
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 .hero-btn:hover, .hero-btn:focus, .hero-btn:active{
     background-color: #404BBF;
@@ -123,16 +136,36 @@ margin-right: 76px;
 
 .advantages { background-color: #ffffff;
 }
-.advantages-title, .advantages-subtitle {
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.advantages-container{
+    display: flex;
+} 
+.advantages-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
-.advantages-list {
+.advantages-list { display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+    margin-top: 120px;
 }
-.advantages-item {
+.advantages-item { width: 264px
+
 }
 .advantages-text { 
     font-size: 16px;
@@ -147,6 +180,8 @@ margin-right: 76px;
 .team { background-color: #f4f4fd;
     color: #2E2F42;
 }
+.team-container{ padding-bottom: 120px;
+}
 .team-title {
     font-size: 36px;
     font-weight: 700;
@@ -154,20 +189,32 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    padding-top: 120px;
+    margin-bottom: 72px;
+    margin-top: 0;
 }
-.team-list { 
+.team-list { display: flex;
+    gap: 24px;
 }
-.team-item { background-color: #FFFFFF;
+.team-item { 
+    width: calc((100% - 72 / 4));
+    
 }
-.team-image {
+.team-image { border-bottom: 1px solid #e7e9fc;
+    margin-bottom: 32px;
+    display: block;
+    margin: 0 auto;
 }
+
 .team-subtitle { 
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
-    
+    margin-bottom: 8px;
+    margin-top: 0;
+    background-color: #ffffff;
 }
 .team-text {
     font-size: 16px;
@@ -175,12 +222,19 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 32px;
+    background-color: #ffffff ;   
 }
 
                                                   /* PORTFOLIO */
 
 
-.portfolio { color: #2E2F42;}
+.portfolio { color: #2E2F42;
+padding-top: 120px;
+padding-bottom: 120px;}
+
+.portfolio-container {
+}
 .portfolio-title { 
     font-size: 36px;
     font-weight: 700;
@@ -188,32 +242,44 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    content: #2e2f42 ;    
+    content: #2e2f42;
+    margin-bottom: 72px;    
 }
-.portfolio-list {
+.portfolio-list { display: flex;
+    flex-wrap: wrap;
 }
-.portfolio-item {
+.portfolio-item { border: 1px solid #E7E9FC;
 }
-.portfolio-image {
+.portfolio-image { display: block;
+    margin-bottom: 32px;
+    margin-top: 0;
 }
 .portfolio-subtitle { 
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left;
     color: #2e2f42;
+    margin-bottom: 8px;
+    padding-left: 16px;
 }
 .portfolio-text { 
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left;
     color: #434455;
+    padding-left: 16px;
 }
 
 .footer { color: #f4f4fd;
     background-color: #2E2F42;
+      
+}
+.footer-container { padding-top: 100px;
+    padding-left: 156px; 
+
 }
 .footer-logo { 
     font-family: "Raleway", sans-serif;
@@ -225,6 +291,7 @@ margin-right: 76px;
     text-transform: uppercase;
     color: #4d5ae5;
     
+    
 }
 .footer-colored { color: #f4f4fd;
 }
@@ -234,6 +301,9 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-align: left;
     color: #f4f4fd;
+    padding-bottom: 100px;
+    margin-top: 16px;
+    max-width: 264px;
 }
 
 
