@@ -19,14 +19,17 @@ a {text-decoration: none;}
 
 .header { border-bottom: 1px solid #e7e9fc;
 }
-.container{
+.container {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
-.header-container{ display: flex;
-align-items: center;}
-.header-navigation { display: flex;
+.header-container { 
+    display: flex;
+align-items: center;
+}
+.header-navigation { 
+    display: flex;
     align-items: center;
 }
 .header-logo { 
@@ -39,8 +42,6 @@ text-align: left;
 text-transform: uppercase;
 color: #4d5ae5;
 margin-right: 76px;
-;
-  
 }
 .header-list { 
     font-size: 16px;
@@ -64,10 +65,11 @@ margin-right: 76px;
     padding: 24px 0;
     display: block;   
 }
-.header-item-link:hover, .header-item-link:active, .header-item-link:focus{
+.header-item-link:hover, .header-item-link:active, .header-item-link:focus {
    color: #404bbf;
 }
-.header-address { font-style: normal;
+.header-address { 
+    font-style: normal;
     margin-left: auto;
 }
 .header-address-list { 
@@ -81,28 +83,24 @@ margin-right: 76px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #434455;
-    
+    color: #434455;   
 }
-.header-address-link:hover, .header-address-link:focus, .header-address-link:active{
+.header-address-link:hover, .header-address-link:focus, .header-address-link:active {
     color: #404BBF;
-    ;
 }
-.header-colored { color: #2e2f42;
-    ;    
+.header-colored { color: #2e2f42;    
 }
                                      /* TITLE */
 
 
-.hero { background-color: #2E2F42;
-}
+.hero { background-color: #2E2F42;}
 .hero-container {
-width: 1440px;
-height: 600px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .hero-title { 
     font-size: 56px;
@@ -128,7 +126,7 @@ align-items: center;
     display: block;
     margin: 0 auto;
 }
-.hero-btn:hover, .hero-btn:focus, .hero-btn:active{
+.hero-btn:hover, .hero-btn:focus, .hero-btn:active {
     background-color: #404BBF;
 }
                            /* ADVANTAGES */
@@ -148,7 +146,7 @@ align-items: center;
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-.advantages-container{
+.advantages-container {
     display: flex;
 } 
 .advantages-subtitle {
@@ -159,14 +157,13 @@ align-items: center;
     color: #2e2f42;
     margin-bottom: 8px;
 }
-.advantages-list { display: flex;
+.advantages-list { 
+    display: flex;
     gap: 24px;
     margin-bottom: 120px;
     margin-top: 120px;
 }
-.advantages-item { width: 264px
-
-}
+.advantages-item { width: 264px;}
 .advantages-text { 
     font-size: 16px;
     line-height: 24px;
@@ -180,7 +177,7 @@ align-items: center;
 .team { background-color: #f4f4fd;
     color: #2E2F42;
 }
-.team-container{ padding-bottom: 120px;
+.team-container { padding-bottom: 120px;
 }
 .team-title {
     font-size: 36px;
@@ -197,10 +194,10 @@ align-items: center;
     gap: 24px;
 }
 .team-item { 
-    width: calc((100% - 72 / 4));
-    
+    width: calc((100% - 72 / 4));    
 }
-.team-image { border-bottom: 1px solid #e7e9fc;
+.team-image { 
+    border-bottom: 1px solid #e7e9fc;
     margin-bottom: 32px;
     display: block;
     margin: 0 auto;
@@ -273,13 +270,13 @@ padding-bottom: 120px;}
     padding-left: 16px;
 }
 
-.footer { color: #f4f4fd;
-    background-color: #2E2F42;
-      
+.footer { 
+    color: #f4f4fd;
+    background-color: #2E2F42;     
 }
-.footer-container { padding-top: 100px;
+.footer-container { 
+    padding-top: 100px;
     padding-left: 156px; 
-
 }
 .footer-logo { 
     font-family: "Raleway", sans-serif;
@@ -289,9 +286,7 @@ padding-bottom: 120px;}
     letter-spacing: 0.03em;
     text-align: left;
     text-transform: uppercase;
-    color: #4d5ae5;
-    
-    
+    color: #4d5ae5;   
 }
 .footer-colored { color: #f4f4fd;
 }
