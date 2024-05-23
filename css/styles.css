@@ -93,7 +93,10 @@ margin-right: 76px;
                                      /* TITLE */
 
 
-.hero { background-color: #2E2F42;}
+.hero { 
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
 .hero-container {
     width: 1440px;
     height: 600px;
@@ -109,7 +112,8 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    line-height: 1.07; 
+    line-height: 1.07;
+    max-width: 496px; 
 }
 .hero-btn { 
     font-size: 16px;
@@ -120,11 +124,13 @@ margin-right: 76px;
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
+    min-width: 169px;
     padding: 16px 32px;   
     border: none;
     border-radius: 4px;
     display: block;
     margin: 0 auto;
+    
 }
 .hero-btn:hover, .hero-btn:focus, .hero-btn:active {
     background-color: #404BBF;
@@ -132,7 +138,9 @@ margin-right: 76px;
                            /* ADVANTAGES */
 
 
-.advantages { background-color: #ffffff;
+.advantages { 
+    background-color: #ffffff;
+    padding: 120px 0; 
 }
 .visually-hidden {
     position: absolute;
@@ -174,8 +182,10 @@ margin-right: 76px;
                                            /* OUR TEAM */
 
 
-.team { background-color: #f4f4fd;
+.team { 
+    background-color: #f4f4fd;
     color: #2E2F42;
+    padding: 120px 0;
 }
 .team-container { padding-bottom: 120px;
 }
@@ -272,7 +282,8 @@ padding-bottom: 120px;}
 
 .footer { 
     color: #f4f4fd;
-    background-color: #2E2F42;     
+    background-color: #2E2F42;
+    padding: 100px 0;      
 }
 .footer-container { 
     padding-top: 100px;
@@ -286,9 +297,12 @@ padding-bottom: 120px;}
     letter-spacing: 0.03em;
     text-align: left;
     text-transform: uppercase;
-    color: #4d5ae5;   
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;   
 }
 .footer-colored { color: #f4f4fd;
+    display: inline-block;
 }
 .footer-text {
     font-size: 16px;
@@ -297,7 +311,6 @@ padding-bottom: 120px;}
     text-align: left;
     color: #f4f4fd;
     padding-bottom: 100px;
-    margin-top: 16px;
     max-width: 264px;
 }
 
