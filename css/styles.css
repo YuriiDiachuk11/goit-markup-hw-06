@@ -124,7 +124,8 @@ margin-right: 76px;
     text-align: center;
     color: #ffffff;
     line-height: 1.07;
-    max-width: 496px; 
+    max-width: 496px;
+    margin-bottom: 48px; 
 }
 .hero-btn { 
     font-size: 16px;
@@ -259,9 +260,9 @@ padding-bottom: 120px;}
 .portfolio-container {
 }
 .portfolio-item-container {
-    padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border: none; 
+    border: none;
+    padding: 32px 16px; 
 }
 .portfolio-title { 
     font-size: 36px;
