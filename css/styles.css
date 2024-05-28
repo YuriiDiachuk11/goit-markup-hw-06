@@ -23,7 +23,9 @@ p {
     margin: 0;
 }
 
-
+svg {
+    fill: #D9D9D9;
+}
 
                             /* HEADER */
 
@@ -107,7 +109,11 @@ margin-right: 76px;
 .hero { 
     background-color: #2E2F42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .hero-title { 
     font-size: 56px;
@@ -143,7 +149,19 @@ margin-right: 76px;
 }
                            /* ADVANTAGES */
 
-
+.icon-box {
+border: 1px solid #8E8F99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background-color: #F4F4FD;
+display: flex;
+justify-content: center;align-items: center;
+}
+.icon {
+    width: 64px;
+    height: 64px;
+}
 .advantages { 
     background-color: #ffffff;
     padding: 120px 0; 
@@ -236,8 +254,25 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    background-color: #ffffff ;   
+    background-color: #ffffff ;
+    margin-bottom: 8px;   
 }
+.networks-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.social-networks-box {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
                                                   /* PORTFOLIO */
 
