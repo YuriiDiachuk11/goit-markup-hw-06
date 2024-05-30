@@ -128,7 +128,7 @@ margin-right: 76px;
 .hero { 
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office 1.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
@@ -247,10 +247,10 @@ margin-bottom: 8px;
 .team-list { display: flex;
     gap: 24px;
 }
-.team-item { 
-    width: calc((100% - 72 / 4)); 
+.team-item {
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);   
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-image { 
     border-bottom: 1px solid #e7e9fc;
@@ -288,7 +288,8 @@ margin-bottom: 8px;
     justify-content: center;
     align-items: center;
 }
-.networks-item { transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.networks-item { 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .social-networks-box {
@@ -340,10 +341,11 @@ padding-bottom: 120px;}
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-item:hover .text-app { 
+.portfolio-item:hover .text-app {
     transform: translateY(0);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .box-app {
     position: relative;
     overflow: hidden;
