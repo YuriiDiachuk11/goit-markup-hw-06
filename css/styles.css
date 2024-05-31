@@ -249,7 +249,6 @@ margin-bottom: 8px;
 }
 .team-image { 
     border-bottom: 1px solid #e7e9fc;
-    margin-bottom: 32px;
     display: block;
     margin: 0 auto;
 }
@@ -292,7 +291,9 @@ margin-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-icon {
+    fill: #f4f4fd;
 }
 .social-networks-box:hover,:focus {
     background-color: #404bbf;
