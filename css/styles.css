@@ -673,8 +673,6 @@ svg {
     color: #8e8f99;
     margin-top: 14px;
     margin-bottom: 26px;
-    display: flex;
-    align-items: center;
 }
 .checkbox-text-colored {
     line-height: 1.33px;
@@ -686,24 +684,22 @@ svg {
 .checkbox-text-icon {
     width: 16px;
     height: 16px;
-    display: inline-flex;
     border-radius: 2px;
     border-color: #2E2F42;
     margin-right: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid rgba(46, 47, 66, 0.4);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
-.modal-check:checked + .checkbox-text .checkbox-text-icon {
+.modal-check:checked + .checkbox-text > .checkbox-text-icon {
     background-color: #404BBF;
     border: none;
-}
-.modal-check:checked + .checkbox-text .checkbox-text-icon .icon-bird {
     fill: #F4F4FD;
 }
+
 .checkbox-btn {
     display: block;
     border-radius: 4px;
