@@ -35,6 +35,7 @@ p {
     padding: 0 16px;
     margin: 0 auto;
 }
+
 .header-container { 
     display: flex;
     align-items: center;
@@ -140,27 +141,29 @@ color: #434455;
 
 .hero { 
     background-color: #2E2F42;
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-1.jpg");
+    padding: 72px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/mob-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1440px;
-    background-position: center;
     margin: 0 auto;
+}
+@media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution:192dpi) { 
+    .hero { background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/mob-bg-2x.jpg");
+    }
+    
 }
 
 
 .hero-title { 
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    line-height: 1.07;
-    max-width: 496px;
+    max-width: 216px;
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 72px;
 }
 .hero-btn { 
     font-size: 16px;
@@ -805,6 +808,19 @@ svg {
         color: #404BBF;
     }
     .header-colored { color: #2e2f42;    
+    }
+    .hero {
+        padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/tab-bg.jpg");
+    }
+    @media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution:192dpi) { 
+        .hero { background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/tab-bg-2x.jpg");
+        }
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+        max-width: 496px;
     }  
 
 }
@@ -824,5 +840,15 @@ svg {
     .header-address-link {
         font-size: 16px;
         line-height: 1.5;
+    }
+    .hero {
+        padding: 188px 0;
+        max-width: 1440px;
+    }
+    @media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution:192dpi) { 
+        .hero { background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/dekstop-bg-2x.jpg");
+        }
+    .hero-title { 
+        margin-bottom: 48px;
     }
 }
