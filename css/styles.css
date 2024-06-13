@@ -153,7 +153,6 @@ color: #434455;
     
 }
 
-
 .hero-title { 
     font-size: 36px;
     font-weight: 700;
@@ -189,20 +188,9 @@ color: #434455;
                 /* ADVANTAGES */
 
 .icon-box {
-border: 1px solid #8E8F99;
-border-radius: 4px;
-width: 264px;
-height: 112px;
-background-color: #F4F4FD;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 8px;
+    display: none;
 }
-.icon {
-    width: 64px;
-    height: 64px;
-}
+
 .advantages { 
     background-color: #ffffff;
     padding: 120px 0; 
@@ -223,21 +211,23 @@ margin-bottom: 8px;
     display: flex;
 } 
 .advantages-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
 }
 .advantages-list { 
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 72px;
 }
 .advantages-item { width: 264px;}
 .advantages-text { 
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;    
@@ -744,6 +734,8 @@ svg {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
     .header-logo{
         margin-right: 120px;
@@ -821,8 +813,15 @@ svg {
         line-height: 1.07;
         margin-bottom: 36px;
         max-width: 496px;
-    }  
-
+    } 
+    .advantages-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+    .advantages-item {
+        width: calc((100% - 24px) / 2);
+    } 
 }
 
 @media screen and (min-width: 1158px) {
@@ -851,4 +850,32 @@ svg {
     .hero-title { 
         margin-bottom: 48px;
     }
-}
+    .icon-box {
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    }
+    .icon {
+        width: 64px;
+        height: 64px;
+    }
+    .advantages-list {
+        gap: 24px;
+        flex-wrap: nowrap;
+    }
+    .advantages-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .advantages-text { 
+        font-weight: 400;
+    }
+
+}}
