@@ -232,13 +232,17 @@ color: #434455;
     text-align: left;
     color: #434455;    
 } 
-                                           /* OUR TEAM */
+                     /* OUR TEAM */
 
 
 .team { 
     background-color: #f4f4fd;
     color: #2E2F42;
-    padding: 120px 0;
+    padding: 96px 0;
+}
+.team-container {
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 .team-title {
@@ -251,13 +255,16 @@ color: #434455;
     margin-bottom: 72px;
     margin-top: 0;
 }
-.team-list { display: flex;
-    gap: 24px;
+.team-list { 
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    
 }
 .team-item {
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    max-width: 264px;
 }
 .team-image { 
     border-bottom: 1px solid #e7e9fc;
@@ -265,7 +272,7 @@ color: #434455;
     margin: 0 auto;
 }
 .team-item-container {
-    padding: 32px 0;
+    padding: 32px 16px;
     background-color: #ffffff;
 }
 
@@ -276,7 +283,6 @@ color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 8px;
-    margin-top: 0;
     background-color: #ffffff;
 }
 .team-text {
@@ -293,6 +299,9 @@ color: #434455;
     gap: 24px;
     justify-content: center;
     align-items: center;
+}
+.networks-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .social-networks-box {
@@ -312,7 +321,7 @@ color: #434455;
     background-color: #404bbf;
 }
 
-                                                  /* PORTFOLIO */
+    /* PORTFOLIO */
 
 
 .portfolio { color: #2E2F42;
@@ -731,6 +740,8 @@ svg {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+             /* MEDIA TABLET */
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -821,8 +832,21 @@ svg {
     }
     .advantages-item {
         width: calc((100% - 24px) / 2);
+    }
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .team-container{
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+    .team-item {
+        width: calc((100% - 24px) / 2);
     } 
 }
+/* MEDIA DESKTOP */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -876,6 +900,13 @@ svg {
     }
     .advantages-text { 
         font-weight: 400;
+    }
+    .team {
+        padding: 120px 0;
+    }
+    .team-item { 
+        width: calc((100% - 72px) / 4);
+
     }
 
 }}
