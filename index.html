@@ -328,9 +328,9 @@
             <li class="portfolio-item">
                 <div class="box-app">
                     <picture>
-                        <source srcset="./images/meditation-app.jpg 1x, ./images/meditation-app2x.jpg" media="(min-width: 1158px)">
-                        <source srcset="./images/meditation-app-tab.jpg 1x, ./images/meditation-app-tab2x.jpg" media="(min-width: 768px)">
-                        <source srcset="./images/meditation-app-mob.jpg 1x, ./images/meditation-app-mob2x.jpg" media="(min-width: 320px)">
+                        <source srcset="./images/meditation-app.jpg 1x, ./images/meditation-app2x.jpg 2x" media="(min-width: 1158px)">
+                        <source srcset="./images/meditation-app-tab.jpg 1x, ./images/meditation-app-tab2x.jpg 2x" media="(min-width: 768px)">
+                        <source srcset="./images/meditation-app-mob.jpg 1x, ./images/meditation-app-mob2x.jpg 2x" media="(min-width: 320px)">
                         <img class="portfolio-image" src="./images/meditation-app-mob.jpg" alt="Meditation" width="288" height="280">
                     </picture>
                     <p class="text-app">
@@ -441,11 +441,12 @@
     <p class="text-form">Subscribe</p>
     <form class="footer-form" name="subscribe-form">
          
-            <label class="footer-label">
+            
             <div class="input-container">
+                <label class="footer-label" for="subscribe">
                 <input class="input-form" type="email" name="e-mail" id="subscribe" placeholder="E-mail"> 
+                </label>
             </div>
-        </label>
         
         <div class="btn-container">
 
@@ -505,15 +506,15 @@
             <label for="user-privacy" class="checkbox-text">
                 <div class="checkbox-text-wrap">
                     <span class="checkbox-text-icon"> 
-                    <svg class="icon-bird" width="10" height="8">
-                        <use href="./images/icons.svg#icon-bird"></use>
-                    </svg>
-                </span>
-                <span>
-                    I accept the terms and conditions of the 
-                <a class="checkbox-text-colored" href="">Privacy Policy</a>
-            </span>
-            </div>
+                        <svg class="icon-bird" width="10" height="8">
+                            <use href="./images/icons.svg#icon-bird"></use>
+                        </svg>
+                    </span>
+                    <span>
+                        I accept the terms and conditions of the 
+                        <a class="checkbox-text-colored" href="#">Privacy Policy</a>
+                    </span>
+                </div>
             </label>
         </div>
             <button class="checkbox-btn" type="submit">Send</button>
