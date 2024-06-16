@@ -327,10 +327,7 @@ color: #434455;
 
 .portfolio { 
     color: #2E2F42;
-}
-
-.portfolio-container {
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 .portfolio-title { 
     font-size: 36px;
@@ -345,6 +342,7 @@ color: #434455;
 .portfolio-list { 
     display: flex;
     flex-direction: column;
+    gap: 48px;
 }
 .portfolio-item { 
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -750,6 +748,11 @@ svg {
         padding-left: 16px;
         padding-right: 16px;
     }
+    .header-address {
+        display: block;
+        font-style: normal;
+    }
+    
     .header-logo{
         margin-right: 120px;
     }
@@ -794,9 +797,6 @@ svg {
     .open-menu-btn {
         display: none;
     }
-    .header-address {
-        display: block;
-    }
     .header-address-list { 
         display: flex;
         flex-direction: column;
@@ -827,6 +827,9 @@ svg {
         margin-bottom: 36px;
         max-width: 496px;
     }
+    .advantages {
+        padding: 96px 0;
+    }
     .advantages-subtitle {
         text-align: left;
     } 
@@ -850,6 +853,9 @@ svg {
     .team-item {
         width: calc((100% - 24px) / 2);
     }
+    .portfolio {
+        padding: 96px 0;
+    }
     .portfolio-list {
         flex-direction: row;
         row-gap: 72px;
@@ -868,7 +874,7 @@ svg {
     .footer-container {
         display: flex;
         flex-wrap: wrap;
-        padding-left: 113px;
+        max-width: 584px;  
     }
     .logo-box {
         margin-right: 24px;
@@ -963,6 +969,9 @@ svg {
     .team-item { 
         width: calc((100% - 72px) / 4);
     }
+    .portfolio {
+        padding: 120px 0;
+    }
     .portfolio-container {
         max-width: 1128px;
     }
@@ -979,17 +988,14 @@ svg {
     .footer-container {
         flex-wrap: nowrap;
         padding: 100px 0;
-        align-items: baseline;
-        max-width: 1440px;
-        padding-right: 156px;
-        
+        align-items: baseline;    
     }
     .logo-box {
         margin-right: 120px;
-        padding-left: 156px;
     }
     .footer-media-list {
         margin-right: 80px;
+        margin-bottom: 0;
     }
     .footer-text {
         max-width: 264px;
